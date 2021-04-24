@@ -1,12 +1,10 @@
 import com.github.chessgame.BoardGame;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.net.MalformedURLException;
 
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		new BoardGame().initialize();
 	}
 
